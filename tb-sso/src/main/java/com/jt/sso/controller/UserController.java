@@ -23,6 +23,7 @@ public class UserController {
 	private JedisCluster jedisCluster;
 	
 	//实现用户信息校验 /user/check/admin181234/1?
+	//添加注释
 	@RequestMapping("/check/{param}/{type}")
 	public JSONPObject findCheckUser(
 			@PathVariable String param,
